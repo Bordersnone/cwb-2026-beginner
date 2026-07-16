@@ -8,6 +8,7 @@ Welcome back! Today is all about making the basics stick: a quick warm-up quiz, 
 
 - [Today's Plan](#-todays-plan)
 - [In-Class Build: "My Favorite Things"](#-in-class-build-my-favorite-things)
+- [Reference Links](./resources.md) — the W3Schools & MDN pages for everything we cover today
 - [Homework](#-homework)
 - [What You Should Know](#-what-you-should-know-after-this-class)
 - [Next Class](#-next-class)
@@ -38,6 +39,8 @@ Build a single page from scratch that uses **every element we've covered**. Chec
 - [ ] A `<style>` block with: one **element selector**, one **class selector** used on 2+ elements, and one **ID selector**
 
 **Finished early?** Add a `ul li` descendant selector that styles only your list items, or style your two lists differently using classes.
+
+**Stuck on a tag?** Don't wait — look it up in the [reference links](./resources.md). Looking things up is what real developers do all day.
 
 ---
 
