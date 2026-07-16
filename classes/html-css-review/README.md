@@ -38,9 +38,18 @@ Build a single page from scratch that uses **every element we've covered**. Chec
 - [ ] At least one HTML comment labeling a section
 - [ ] A `<style>` block with: one **element selector**, one **class selector** used on 2+ elements, and one **ID selector**
 
-**Finished early?** Add a `ul li` descendant selector that styles only your list items, or style your two lists differently using classes.
-
 **Stuck on a tag?** Don't wait — look it up in the [reference links](./resources.md). Looking things up is what real developers do all day.
+
+### 🔥 Challenge Round (finished early? keep going)
+
+In order — each one is harder than the last:
+
+1. **Descendant selector:** add a `ul li` rule that styles only your list items
+2. **External stylesheet:** move all your CSS out of the `<style>` block into a `style.css` file, connected with `<link rel="stylesheet" href="style.css">` — the page should look *identical* after the move
+3. **Box it up:** give one section a `background-color`, `padding`, and a `border` — then open DevTools and look at the box model diagram to see your padding
+4. **Side by side:** make your two lists sit next to each other using `display: inline-block` on their containers
+
+(The links for all of these are in [resources.md](./resources.md) under Challenge Round.)
 
 ---
 

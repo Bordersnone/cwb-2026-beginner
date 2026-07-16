@@ -28,6 +28,18 @@ We don't use slides in this course — we use the same documentation professiona
 
 ---
 
+## Challenge Round
+
+For the extra exercises at the end of the build:
+
+| Topic | W3Schools (learn it) | MDN (full reference) |
+|---|---|---|
+| External stylesheets (`<link>`) | [How To Add CSS](https://www.w3schools.com/css/css_howto.asp) | [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) |
+| Padding, border, background | [Box Model](https://www.w3schools.com/css/css_boxmodel.asp) · [Borders](https://www.w3schools.com/css/css_border.asp) | [CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model) |
+| `display: inline-block` | [Inline-block](https://www.w3schools.com/css/css_inline-block.asp) | [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display) |
+
+---
+
 ## Handy Extras
 
 - **[W3Schools Tryit Editor](https://www.w3schools.com/tryit/)** — a blank sandbox to experiment in, no setup needed
