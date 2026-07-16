@@ -1,28 +1,30 @@
-# Review & Practice — HTML Basics + CSS Selectors
+# HTML & CSS Review + Practice
 
-**Format:** Warm-up quiz → group review → hands-on build → homework
-
-> **Where the class is:** Previous classes covered HTML basics (tags: `br`, `hr`, `pre`, `b`, `i`), headings, comments, images, relative & absolute links, lists, and an introduction to CSS selectors. Previous teacher's note: *"I think they need more practice and homework."*
+Welcome back! Today is all about making the basics stick: a quick warm-up quiz, then building a page that uses **everything** you've learned so far.
 
 ---
 
-## 🗓 Class Plan
+## 📚 Quick Links
 
-### 1. Warm-up quiz (~15–20 min)
-Hand out [quiz.md](./quiz.md) — 15 questions plus a "find the mistakes" bonus.
+- [Today's Plan](#-todays-plan)
+- [In-Class Build: "My Favorite Things"](#-in-class-build-my-favorite-things)
+- [Homework](#-homework)
+- [What You Should Know](#-what-you-should-know-after-this-class)
+- [Next Class](#-next-class)
 
-- Emphasize up front: **not graded, diagnostic only.** Honest blanks are more useful than lucky guesses.
-- While students work, circulate and note which questions cause the most hesitation.
+---
 
-### 2. Review answers together (~15 min)
-Go through the answers as a group (answer key: `quiz-answers.md` — kept out of this repo on purpose; teachers have it locally).
+## 📝 Today's Plan
 
-- Have **students** explain the answers where possible — teaching back is the best retention check.
-- Spend extra time on whatever the quiz reveals as weak. Likely candidates based on last year: `src` vs `href`, relative paths, and the class-vs-ID distinction.
-- The bonus "find the mistakes" question makes a great live demo: paste it into VS Code, open it in the browser, and fix mistakes one at a time so students see the effect of each fix.
+1. **Warm-up quiz** — [quiz.md](./quiz.md). It's **not graded**! It just shows us (and you) what's solid and what needs another look. Honest blanks beat lucky guesses.
+2. **Review together** — we'll go through the answers as a group. Be ready to explain *why*, not just *what*.
+3. **Build!** — everyone makes a "My Favorite Things" page from scratch (checklist below).
 
-### 3. Hands-on build: "My Favorite Things" page (~40 min)
-Everyone builds a single page from scratch that uses **every element covered so far**. Checklist for students:
+---
+
+## 🔨 In-Class Build: "My Favorite Things"
+
+Build a single page from scratch that uses **every element we've covered**. Check items off as you go:
 
 - [ ] One `<h1>` page title, and at least two `<h2>` section headings
 - [ ] An `<hr>` separating the sections
@@ -30,15 +32,12 @@ Everyone builds a single page from scratch that uses **every element covered so 
 - [ ] An **unordered list** of at least 3 favorite things
 - [ ] An **ordered list** (e.g., top 3 movies, ranked)
 - [ ] An image loaded with a **relative path** (put it in an `images/` folder!)
-- [ ] One **absolute link** to a real website, and one **relative link** to a second page (`page2.html` — it can be nearly empty)
+- [ ] One **absolute link** to a real website, and one **relative link** to a second page (`page2.html` — it can be nearly empty for now)
 - [ ] A `<pre>` block (a tiny ASCII drawing is a fun option)
 - [ ] At least one HTML comment labeling a section
 - [ ] A `<style>` block with: one **element selector**, one **class selector** used on 2+ elements, and one **ID selector**
 
-Fast finishers: add a `ul li` descendant selector that styles only list items, or style the two lists differently using classes.
-
-### 4. Wrap-up (~5 min)
-Preview what's next (see roadmap below) and assign homework.
+**Finished early?** Add a `ul li` descendant selector that styles only your list items, or style your two lists differently using classes.
 
 ---
 
@@ -46,31 +45,23 @@ Preview what's next (see roadmap below) and assign homework.
 
 Extend your "My Favorite Things" page:
 
-1. Fill in `page2.html` as a real second page (same checklist spirit), and make sure the two pages **link to each other**.
+1. Fill in `page2.html` as a real second page (use the same checklist), and make sure the two pages **link to each other**.
 2. Add a class named `.highlight` and apply it to your three favorite items across both pages.
-3. **Mistake hunt:** deliberately break your page in 3 ways (remove a closing tag, break an image path, misspell a selector), observe what happens in the browser, then fix it. Write the 3 mistakes as HTML comments at the bottom of the page.
+3. **Mistake hunt:** deliberately break your page in 3 ways (remove a closing tag, break an image path, misspell a selector), look at what happens in the browser, then fix it. Write the 3 mistakes as HTML comments at the bottom of the page.
 
-Item 3 builds debugging instinct — knowing what *broken* looks like is half of fixing it.
-
----
-
-## 🔜 Roadmap: what stands between here and Flexbox
-
-Before Flexbox makes sense, students need (roughly 2–3 classes, mirroring last year's classes 08–09):
-
-1. **Where CSS lives** — inline vs `<style>` vs external stylesheet
-2. **Text & color properties** — `color`, `font-size`, `font-family`, `text-align` (gives selectors something meaningful to do)
-3. **The box model** — content → padding → border → margin (non-negotiable prerequisite: Flexbox is about distributing boxes, so students must know what a box is)
-4. **`display: block` vs `inline`** — you can't appreciate `display: flex` until you've seen the default behavior it replaces
-5. **Cascade & specificity basics** — why some rules "win"
-
-Last year Flexbox was introduced in class 09 *after* all of the above, and still needed classes 12–15 for practice and review. Skipping ahead is a false economy.
+Why item 3? Knowing what *broken* looks like is half of fixing it — this is how you build debugging instincts.
 
 ---
 
-## ✅ What students should know after this class
+## ✅ What You Should Know After This Class
 
-- [ ] Every tag from the checklist above, from memory
-- [ ] The difference between relative and absolute paths, and when each breaks
+- [ ] Every tag from the build checklist, from memory
+- [ ] The difference between relative and absolute paths, and when each one breaks
 - [ ] Element vs class vs ID selectors, and the `.`/`#` syntax
 - [ ] How to spot and fix a missing closing tag
+
+---
+
+## 🔜 Next Class
+
+We start giving your pages some real style: where CSS can live (inline, internal, external), text and color properties, and the **box model** — the foundation for building layouts.
