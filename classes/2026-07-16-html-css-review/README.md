@@ -1,5 +1,7 @@
 # HTML & CSS Review + Practice
 
+> **📌 Post-class note:** in this class we got through the quiz and the answer review — the page build moved to the [next class](../2026-07-21-guided-page-build/), where we do it step by step together.
+
 Welcome back! Today is all about making the basics stick: a quick warm-up quiz, then building a page that uses **everything** you've learned so far.
 
 ---

@@ -32,9 +32,10 @@ Each class folder includes a `resources.md` with the specific pages for that cla
 
 | Date | Class | Lead | Assistant |
 |------|--------|------|------------|
-| 16-Jul-2026 | [HTML & CSS Review + Practice](/classes/html-css-review/) | Kiley | - |
+| 16-Jul-2026 | [HTML & CSS Review + Practice](/classes/2026-07-16-html-css-review/) | Kiley | - |
+| 21-Jul-2026 | [Guided Build: My Favorite Things](/classes/2026-07-21-guided-page-build/) | Kiley | - |
 
-*(New rows added as classes happen.)*
+*(New rows added as classes happen. Class folders are prefixed with the class date, `YYYY-MM-DD`.)*
 
 ## 👥 Instructors
 
