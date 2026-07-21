@@ -10,7 +10,7 @@ Today is a **ladder** of rounds — easy at the bottom, brutal at the top. You c
 2. **Regroups on a timer.** Every ~15 minutes we all stop — wherever we are — for a *short, time-boxed* review: someone shows their work, we talk through the *why*, then right back to building.
 3. **Struggling is the point.** Getting stuck and unstuck is how this skill is actually learned. Use the [reference links](./resources.md) first; ask for help after two real attempts.
 
-The minutes on each round are a **pace guide**, not a rule. And fair warning: at the top of the ladder waits a **🏆 BOSS**. It does not care how fast you climbed. Nobody is expected to beat it today.
+The minutes on each round are a **pace guide**, not a rule. Rounds 1–6 have step-by-step instructions. From Round 7 up, instructions disappear and you get **targets** — figuring out *how* is the exercise. At the very top of the ladder waits **🗻 The Summit**. Nobody is expected to reach it today. It'll still be there next week.
 
 ---
 
@@ -95,9 +95,9 @@ The minutes on each round are a **pace guide**, not a rule. And fair warning: at
 
 ---
 
-## 🏆 Round 7 — BOSS FIGHT: The Business Card
+## 🃏 Round 7 — The Business Card (no instructions!)
 
-No step-by-step instructions this time. **That's the point.** You get a target; how to build it is your problem. Everything you need exists on W3Schools and MDN — searching and reading docs is allowed, encouraged, and *is the actual skill being tested*.
+Welcome to the high ladder. From here on there are no step-by-step instructions — **that's the point.** You get a target; how to build it is your problem. Everything you need exists on W3Schools and MDN — searching and reading docs is allowed, encouraged, and *is the actual skill being trained*.
 
 **Build this** — a new file, `card.html`:
 
@@ -131,11 +131,70 @@ Level 4 has made professional developers cry. There is a *reason* our next class
 
 ---
 
+## ✨ Round 8 — Smooth Moves
+
+Right now your card's hover effects *snap*. Professional pages *glide*.
+
+**Target:** when you hover over the card, it **lifts** — rises a few pixels, and its shadow grows deeper. When you hover the link-buttons, the color change is **smooth**, not instant. Every hover effect on the page animates over about 0.2 seconds.
+
+**Research keywords:** `transition`, `transform`, `translateY`.
+
+**✅ Done when:** nothing on your page changes instantly anymore — every hover effect glides in AND glides back out.
+
+**🚀 Go deeper:** make your image do a full spin when hovered. Then find out what `@keyframes` does.
+
+---
+
+## 🧭 Round 9 — The Navigation Bar
+
+**Target:** a horizontal navigation bar across the top of your page: full width, links sitting in a row with even spacing, hover states, and one link visually marked as the "current" page. The bar **stays pinned to the top when you scroll** (make your page tall enough to actually scroll).
+
+**Research keywords:** `position: sticky`, `list-style`, `text-decoration`.
+
+**✅ Done when:** you scroll to the bottom of your page and the nav bar is still sitting at the top of the window, links reacting to hover.
+
+**🚀 Go deeper:** make the nav links jump to sections *within* the page — then make the jump glide instead of teleport (`scroll-behavior`).
+
+---
+
+## 📱 Round 10 — Small Screens
+
+Half the web is viewed on phones. Your page probably looks terrible on one. Open DevTools and find the **device toolbar** (the little phone icon) to see for yourself.
+
+**Target:** below 600px wide — your choice of what changes, but at minimum: the card takes (nearly) the full width, the nav links still fit without overflowing, and nothing requires sideways scrolling.
+
+**Research keywords:** `@media`, `max-width`.
+
+**✅ Done when:** you drag the window from wide to narrow and watch your layout visibly *reorganize itself* at the breakpoint — no horizontal scrollbar at any width.
+
+**🚀 Go deeper:** add a second breakpoint. Hide something entirely on small screens and decide *why* it deserved to die.
+
+---
+
+## 🗻 Round 11 — THE SUMMIT: Your Portfolio Page
+
+Everything from today, one real webpage: `portfolio.html`.
+
+**The spec:**
+
+1. A **sticky nav** with three links — *Home*, *Gallery*, *Contact* — that smooth-scroll to sections of the page
+2. A **hero section** filling the entire first screen (the full window height), with your business card dead-centered in it
+3. A **gallery section**: at least six images in rows that wrap to fit the window, each one animating on hover
+4. A **contact/footer section** with a visibly different (dark?) background and styled links
+5. **Responsive:** the whole thing still works below 600px
+6. **Everything glides:** no instant hover changes anywhere
+
+**✅ Done when:** every item above passes. Yes, all six. This is a real webpage — the kind you could put your actual name on.
+
+**🚀 There is no "go deeper."** This is the top. If you finish it in class, I owe you a coffee and you're teaching Round 3 next week.
+
+---
+
 ## 🏠 Homework
 
 1. **Finish any rounds you didn't get to in class** — the instructions above stand alone
 2. Make `page2.html` a real page: headings, a list, an image, and styling via the shared `style.css`
-3. **Keep fighting the boss.** Bring your best attempt to next class — we'll dissect it together, and what we learn from it is exactly where the course goes next
+3. **Keep climbing.** Wherever you stopped on the ladder, keep going — bring your best attempt to next class and we'll dissect it together. What we learn from it is exactly where the course goes next
 4. **Mistake hunt:** break your page in 3 deliberate ways (remove a closing tag, break your image path, misspell a selector), observe each in the browser, fix it, and document all 3 as HTML comments at the bottom of the page
 
 ---

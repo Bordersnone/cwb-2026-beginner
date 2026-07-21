@@ -17,9 +17,13 @@ Organized by round. **[W3Schools](https://www.w3schools.com/)** = beginner-frien
 | 4–5 | Selectors (element, class, ID) | [CSS Selectors](https://www.w3schools.com/css/css_selectors.asp) | [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors) |
 | 6 | Descendant selector | [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp) | [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) |
 | 6 | External stylesheets | [How To Add CSS](https://www.w3schools.com/css/css_howto.asp) | [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) |
-| 🏆 | Rounded corners & shadows | [Rounded Corners](https://www.w3schools.com/css/css3_borders.asp) · [Shadows](https://www.w3schools.com/css/css3_shadows.asp) | [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) · [`box-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) |
-| 🏆 | Hover effects | [`:hover`](https://www.w3schools.com/cssref/sel_hover.php) | [`:hover`](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) |
-| 🏆 | Centering things… | [CSS Align](https://www.w3schools.com/css/css_align.asp) — that's all the help you get 😉 | — |
+| 7 | Rounded corners & shadows | [Rounded Corners](https://www.w3schools.com/css/css3_borders.asp) · [Shadows](https://www.w3schools.com/css/css3_shadows.asp) | [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) · [`box-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) |
+| 7 | Hover effects | [`:hover`](https://www.w3schools.com/cssref/sel_hover.php) | [`:hover`](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) |
+| 7 | Centering things… | [CSS Align](https://www.w3schools.com/css/css_align.asp) — that's all the help you get 😉 | — |
+| 8 | Transitions & transforms | [Transitions](https://www.w3schools.com/css/css3_transitions.asp) · [Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp) | [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) · [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) |
+| 9 | Positioning (sticky!) | [CSS Positioning](https://www.w3schools.com/css/css_positioning.asp) | [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) |
+| 10 | Media queries | [Media Queries Intro](https://www.w3schools.com/css/css3_mediaqueries.asp) | [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) |
+| 🗻 | The Summit | No links. Assemble everything above. | — |
 
 ## Handy Extras
 
