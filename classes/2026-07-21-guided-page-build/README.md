@@ -4,13 +4,13 @@ Last class we took the quiz and reviewed the answers. Today we **build** — a c
 
 ## 🎮 How Today Works
 
-We work in **rounds**. Each round:
+Today is a **ladder** of rounds — easy at the bottom, brutal at the top. You climb at **your own pace**:
 
-1. **You build, solo** (5–10 minutes) — struggling is the point! Getting stuck and unstuck is how this skill is actually learned. Use the [reference links](./resources.md) before asking for help.
-2. **We regroup** — someone shows their work, we talk through the *why*, everyone fixes theirs up.
-3. **Next round!**
+1. **Build solo.** When a round's **"✅ Done when"** check passes, either take the **"🚀 Finished early?"** detour or climb straight to the next round. **Never wait for the group.**
+2. **Regroups on a timer.** Every ~15 minutes we all stop — wherever we are — for a *short, time-boxed* review: someone shows their work, we talk through the *why*, then right back to building.
+3. **Struggling is the point.** Getting stuck and unstuck is how this skill is actually learned. Use the [reference links](./resources.md) first; ask for help after two real attempts.
 
-Every round has a **"Done when"** check and a **"Finished early?"** task — if you're quick, go deeper, don't skip ahead. We all start each round together.
+The minutes on each round are a **pace guide**, not a rule. And fair warning: at the top of the ladder waits a **🏆 BOSS**. It does not care how fast you climbed. Nobody is expected to beat it today.
 
 ---
 
@@ -83,7 +83,7 @@ Every round has a **"Done when"** check and a **"Finished early?"** task — if 
 
 ---
 
-## Round 6 — Level Up (stretch round)
+## Round 6 — Level Up (~10 min)
 
 1. Add a rule with the **descendant selector** `ul li` — it should style list items in your `ul` but not your `ol`
 2. The big move: create `style.css`, cut ALL your CSS into it, and connect it with
@@ -95,11 +95,48 @@ Every round has a **"Done when"** check and a **"Finished early?"** task — if 
 
 ---
 
+## 🏆 Round 7 — BOSS FIGHT: The Business Card
+
+No step-by-step instructions this time. **That's the point.** You get a target; how to build it is your problem. Everything you need exists on W3Schools and MDN — searching and reading docs is allowed, encouraged, and *is the actual skill being tested*.
+
+**Build this** — a new file, `card.html`:
+
+```
+┌────────────────────────────────────────┐
+│                                        │
+│                                        │
+│           ╭───────────────╮            │
+│           │    (image)    │            │
+│           │   Your Name   │            │
+│           │ one line about│            │
+│           │      you      │            │
+│           │ [A]  [B]  [C] │            │
+│           ╰───────────────╯            │
+│                                        │
+│                                        │
+└────────────────────────────────────────┘
+        the whole browser window
+```
+
+A "business card" floating **dead center of the browser window** — centered left-right AND top-bottom. The card has: rounded corners, a visible border, a drop shadow, a different background than the page behind it, an image at the top, your name as a heading, a one-line description, and **three links sitting side by side in a row** that change color when you hover over them.
+
+**Progress levels** — how far did you get?
+
+- 🥉 **Level 1:** the card looks like a card — border, rounded corners, shadow, padding, fixed width
+- 🥈 **Level 2:** the card is centered **horizontally**
+- 🥇 **Level 3:** the three links sit in a horizontal row and react to hover
+- 🏆 **Level 4:** the card is centered **vertically too** — perfectly dead-center, even when you resize the window
+
+Level 4 has made professional developers cry. There is a *reason* our next classes exist. If you beat it: screenshot it, and prepare to explain every line at the next regroup.
+
+---
+
 ## 🏠 Homework
 
-1. **Finish any rounds we didn't get to in class** — the instructions above stand alone
+1. **Finish any rounds you didn't get to in class** — the instructions above stand alone
 2. Make `page2.html` a real page: headings, a list, an image, and styling via the shared `style.css`
-3. **Mistake hunt:** break your page in 3 deliberate ways (remove a closing tag, break your image path, misspell a selector), observe each in the browser, fix it, and document all 3 as HTML comments at the bottom of the page
+3. **Keep fighting the boss.** Bring your best attempt to next class — we'll dissect it together, and what we learn from it is exactly where the course goes next
+4. **Mistake hunt:** break your page in 3 deliberate ways (remove a closing tag, break your image path, misspell a selector), observe each in the browser, fix it, and document all 3 as HTML comments at the bottom of the page
 
 ---
 
