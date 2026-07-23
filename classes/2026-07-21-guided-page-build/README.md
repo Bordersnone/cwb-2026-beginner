@@ -35,9 +35,16 @@ The minutes on each round are a **pace guide**, not a rule. Rounds 1–6 have st
 2. Under your second section: an **ordered list** — your top 3 of something, ranked
 3. Put an `<hr>` between the two sections
 4. Add an HTML **comment** above each section labeling it (invisible on the page!)
-5. At the bottom: a `<pre>` block with a tiny ASCII drawing
+5. At the bottom: a `<pre>` block containing **exactly this snippet** (copy–paste it, don't retype):
 
-**✅ Done when:** one list has bullets, the other has numbers, your comments do NOT show up in the browser, and your ASCII art keeps its exact shape.
+```
+Shopping list
+  bread   x2
+  mango   x6
+  tacos   x100
+```
+
+**✅ Done when:** one list has bullets, the other has numbers, your comments do NOT show up in the browser, and the columns in your `<pre>` block line up exactly as pasted.
 
 **🚀 Finished early?** Nest a `<ul>` *inside* one of your `<li>` items — sub-favorites!
 
@@ -186,7 +193,7 @@ Everything from today, one real webpage: `portfolio.html`.
 
 **✅ Done when:** every item above passes. Yes, all six. This is a real webpage — the kind you could put your actual name on.
 
-**🚀 There is no "go deeper."** This is the top. If you finish it in class, I owe you a coffee and you're teaching Round 3 next week.
+**🚀 Go deeper:** the ladder grew — [it continues in the next class](../2026-07-23-ladder-continued/) with rounds 12–15, ending with your site live on the real internet.
 
 ---
 
